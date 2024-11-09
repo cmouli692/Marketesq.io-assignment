@@ -1,0 +1,94 @@
+.ladahk-img{
+    height: 250px;
+}
+.heading-and-text-container{
+    padding: 10px;
+    
+    background-color: #dddddd;
+    width: 50%;
+}
+
+.text-and-icons-container{
+    
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-between;
+    /* align-items: center; */
+    
+}
+.nature-image-container{
+    height: 200px;
+    /* height:100vh; */
+    width: 50%;
+    background-size: cover;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/61/316/24/clouds-lake-rain-india-wallpaper-preview.jpg");
+}
+.text-nature-img-and-booking-controls-container{
+    padding-bottom: 30px;
+
+}
+
+.check-in-item-container{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+
+.vertical-hr{
+    /* width: 1px; */
+    height: 80px;
+    margin-left: 10px;
+}
+
+.counter-controls-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.check-in-check-out-and-book-add-sub-buttons-container{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    list-style-type:none;
+    background-color: #ffffff;
+    box-shadow: black;
+}
+
+.check-in-check-out-and-book-add-sub-buttons-main-container{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    /* padding-bottom: 200px; */
+}
+
+.book-btn{
+    color: #ffffff;
+    background-color: #1565C0;
+    border-style: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.plus-and-minus-btn{
+    
+    
+   border-radius: 50%;
+
+   cursor: pointer;
+   
+    
+}

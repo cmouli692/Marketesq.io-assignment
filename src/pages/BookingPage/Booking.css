@@ -1,0 +1,32 @@
+.input-details-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    /* height: 200px; */
+}
+
+.name-phone-number-container{
+    /* gap: 10px; */
+    width: 300px;
+    /* width: 100%; */
+}
+
+.number-of-adults-input-element{
+    width: 40%;
+    margin-right: 10px;
+}
+
+.name-input-element{
+
+    margin-bottom: 10px;
+    width: 80%;
+    height: 20px;
+}
+
+.indian-rupee-icon-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

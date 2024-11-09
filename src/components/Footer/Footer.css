@@ -1,0 +1,31 @@
+.footer-container{
+    background-color: #dddddd;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.footer-container h1{
+
+
+margin: 0px;}
+
+.footer-text{
+    margin: 0px;
+}
+
+.footer-text-head{
+    font-weight: bold;
+}
+
+.location-btn{
+    color: #ffffff;
+    background-color: #1565C0;
+    border-style: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+}

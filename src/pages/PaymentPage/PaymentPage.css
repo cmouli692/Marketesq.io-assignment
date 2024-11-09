@@ -1,0 +1,11 @@
+.details-and-order-completed-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment-page-middle-hr{
+    height:100px;
+    width: 1px;
+}
