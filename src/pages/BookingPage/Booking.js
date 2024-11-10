@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./Booking.css"
 import { LuIndianRupee } from "react-icons/lu";
 import { useApiContext } from '../../components/Context/Context'
@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 const Booking = () => {
   const navigate = useNavigate()
 
-  const{name,phoneNumber,email,adultCount,childrenCount,roomsCount,onChangeCheckInValue,onChangeCheckOutValue,checkInDate,checkOutDate,onChangeName,onChangeEmail,onChangePhoneNumber,onChangeAdultCount,onChangeChildrenCount,onClickMinusBtn,onClickPlusBtn,totalPrice} = useApiContext()
+  const{adultCount,childrenCount,roomsCount,onChangeCheckInValue,onChangeCheckOutValue,checkInDate,checkOutDate,onChangeName,onChangeEmail,onChangePhoneNumber,onChangeAdultCount,onChangeChildrenCount,onClickMinusBtn,onClickPlusBtn,totalPrice} = useApiContext()
 
   // const [name,setName] = useState("")
   // const [phoneNumber ,setPhoneNumber] = useState("")

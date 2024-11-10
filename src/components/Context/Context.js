@@ -1,4 +1,4 @@
-import { Children, createContext, useContext, useState } from "react";
+import {  createContext, useContext, useState } from "react";
 
 
 // context created 
@@ -9,7 +9,7 @@ const ApiContext = createContext(null)
 export const ApiProvider = ({children}) => {
     const [checkInDate,setCheckInDate] = useState("2024-12-25")
     const [checkOutDate,setCheckOutDate] = useState("2024-12-29")
-    const [roomsCount , setRoomsCount] = useState(0)
+    const [roomsCount , setRoomsCount] = useState(0) 
   
     const onChangeCheckInValue  = (event) => {
         console.log(event.target.value)
