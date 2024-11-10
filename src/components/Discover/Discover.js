@@ -13,6 +13,7 @@ const Discover = () => {
     const [postsData,setPostsDataList] = useState([])
 
     const getPostsData = async() => {
+        // const url = "https://api.unsplash.com/search/photo"
         
         const url = "https://jsonplaceholder.typicode.com/photos"
         const options = {
